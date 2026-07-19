@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
+        state: "Vibing",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#49359B",
+      secondary: " #2A4B7C",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Aether Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,9 +161,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Dollars",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Dollars",
       // Currency symbol shown in balances.
       symbol: "$",
     },
